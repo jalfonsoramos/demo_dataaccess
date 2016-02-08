@@ -6,8 +6,8 @@
         include $class_name . '.php';
     });
 
-    $user='dev';
-    $pass='Jup1t3r!';
+    $user='';
+    $pass='';
     $conn=new PDO('mysql:host=localhost;dbname=world', $user, $pass);
      
     $repo = new CityRepository($conn);
